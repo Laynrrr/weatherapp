@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" id="css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Météo test</title>
+</head>
+<body>
+    <div class="input">
+        <form action="" id="form">
+            <input type="text" placeholder="Entre une ville" id="inputValue">
+            <button type="submit" value="submit" id="submit-btn">Voir la météo</button>
+        </form>
+    </div>
+    <div id="apparition">
+        <section id="sec-1">
+            <img src="images/map-point.svg" alt="map-point">
+                <h1 class="city-name"></h1>
+            <img src="images/down-arrow.svg" alt="down-arrow">
+        </section>
+    
+        <section id="sec-2">
+            <div class="temps-principal">
+                <img src="images/blobs.svg" alt="blobs" class="blobs">
+                <img src="images/sun.svg" alt="sun" class="temps-icon">
+            </div>
+        </section>
+        <section id="sec-3">
+            <div class="container-info">
+                <h3 class="temps-text"></h3>
+                <h3 class="degres"></h3>
+            </div>
+        </section>
+        <section id="sec-4">
+            <div class="little-info">
+                <div class="wind">
+                    <img src="images/wind-icon.svg" alt="wind-icon">
+                    <h5 class="speed">2 km/h</h5>
+                </div>
+                <div class="humidify">
+                    <img src="images/humidify-icon.svg" alt="humidify-icon">
+                    <h5 class="humidity">20%</h5>
+                </div>
+            </div>
+        </section>
+        <section id="sec-5">
+            <div class="container-week-info">
+                <div class="bloc-1">
+                    <div class="rectangle">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
